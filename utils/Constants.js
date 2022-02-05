@@ -1,0 +1,7 @@
+module.exports = {
+    EMBED_COLOR: '#A020F0',
+    CLIENT_ID: '894309312321708043',
+    GUILD_ID: '614978058587209798',
+    PREFIX: ';',
+    TOKEN: 'DISCORD_TOKEN'
+}
