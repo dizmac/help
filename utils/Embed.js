@@ -7,13 +7,13 @@ module.exports = {
             .setTitle('Math • Submission Details')
             .setDescription('Here are the details regarding your submission for help! You will need the UUID to view the status of this submission')
             .setColor(Constants.EMBED_COLOR)
-            .addField('UUID', uuid, false)
-            .addField('Format', subcommand, false)
-            .addField('Content', question, false)
+            .addField('UUID', '`' + uuid + '`', false)
+            .addField('Format', '`' + subcommand + '`', false)
+            .addField('Content', '`' + question + '`', false)
             .addField('Submitter', `<@${user}>`, false)
-            .addField('Reviewed', reviewed, false)
-            .addField('Response', response, false)
-            .addField('Created At In UTC Timestamp', timestamp.toString(), false)
+            .addField('Reviewed', '`' + reviewed + '`', false)
+            .addField('Response', '`' + response + '`', false)
+            .addField('Created At In UTC Timestamp', `<t:${timestamp.toString()}:F>`, false)
     },
     embedMath(mode, result) {
 

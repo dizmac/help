@@ -1,4 +1,4 @@
-const database = require('../../votekick/utils/database')
+const database = require('../utils/database')
 
 module.exports = {
     name: 'ready',

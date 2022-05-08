@@ -1,7 +1,7 @@
 const fs = require('fs');
 const Discord = require('discord.js');
 
-const Constants = require('../votekick/utils/Constants');
+const Constants = require('./utils/Constants');
 
 const { Intents } = require("discord.js");
 

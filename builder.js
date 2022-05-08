@@ -1,6 +1,6 @@
 const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord-api-types/v9');
-const { TOKEN, CLIENT_ID, GUILD_ID } = require('../votekick/utils/constants');
+const { TOKEN, CLIENT_ID, GUILD_ID } = require('./utils/Constants');
 const fs = require('fs');
 
 const commands = [];

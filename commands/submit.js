@@ -1,8 +1,7 @@
-const Discord = require('discord.js');
 const { SlashCommandBuilder } = require('@discordjs/builders');
-const InteractionUtil = require('../../votekick/utils/Interactions');
-const database = require('../../votekick/utils/database');
-const embed = require('../../votekick/utils/Embed')
+const InteractionUtil = require('../utils/Interactions');
+const database = require('../utils/database');
+const embed = require('../utils/Embed')
 const v4 = require('uuid').v4;
 
 

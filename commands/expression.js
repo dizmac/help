@@ -1,7 +1,7 @@
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const math = require('mathjs');
-const InteractionUtil = require('../../votekick/utils/Interactions');
-const embed = require('../../votekick/utils/Embed');
+const InteractionUtil = require('../utils/Interactions');
+const embed = require('../utils/Embed');
 
 module.exports = {
     async execute(interaction, context) {
